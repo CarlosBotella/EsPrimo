@@ -8,14 +8,14 @@
 #include <iostream>
 using namespace std;
 
-int esPrimo(){
-    int comparativo;
-    comparativo = 0;
+bool esPrimo(){
+    bool comparativo;
+    comparativo = false;
     int n;
     cout << "Elige un número ";
     cin >> n;
-    if ((n%1) && (n%n)) {
-        comparativo = 1;
+    if ((n%1 == 0) && (n%n == 0)) {
+        comparativo = true;
     }
     cout << comparativo;
     return comparativo;
