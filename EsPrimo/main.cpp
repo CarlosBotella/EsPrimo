@@ -4,22 +4,20 @@
 //
 //  Created by Carlos Botella Navarro on 29/9/21.
 //
-
+//-----------------------------------------------
+//  unsigned int --> esPrimo --> bool
+//-----------------------------------------------
 #include <iostream>
 using namespace std;
 
-bool esPrimo(){
+bool esPrimo(unsigned int numero){
     bool comparativo;
     comparativo = false; // inicializado
-    int n; // inicializado
-    int i;
-    int total = 0;
-    cout << "Elige un número entero: ";
-    cin >> n;
-    for (i = 1; i<=n; i=i+1) {
-        int remainder;
+    unsigned int total = 0; // contador
+    for (unsigned int i = 1; i<=numero; i=i+1) {
+        unsigned int remainder;
 //        cout << "i: " << i << "\n";
-        remainder = n%i;
+        remainder = numero%i;
 //        cout << remainder << "\n";
         if (remainder == 0 ) {
             total = total + 1;
@@ -35,11 +33,15 @@ bool esPrimo(){
 //    cout << comparativo << "\n";
     return comparativo;
 }
-
+//-----------------------------------------------
 int main(){
-    if (esPrimo()==true) {
-        cout << "el número es primo" << "\n";
+    int n;
+    n = 13; // inicializado
+//    cout<<"elige un numero";
+//    cin >> n;
+    if (esPrimo(n)==true) {
+        cout << "el número " << n <<" es primo" << "\n";
     } else {
-        cout << "el número no es primo" << "\n";
+        cout << "el número " << n <<" no es primo" << "\n";
     }
 }
