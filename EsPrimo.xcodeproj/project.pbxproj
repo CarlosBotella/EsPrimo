@@ -10,16 +10,6 @@
 		DEAB9910270479BE002FF62E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEAB990F270479BE002FF62E /* main.cpp */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		DE9B3620270EE6DD00374C62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE9B361C270EE6DD00374C62 /* sumatorioPares.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DEAB98F9270474E3002FF62E;
-			remoteInfo = sumatorioPares;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		DEAB990A270479BE002FF62E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -33,7 +23,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DE9B361C270EE6DD00374C62 /* sumatorioPares.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sumatorioPares.xcodeproj; path = ../sumatorioPares/sumatorioPares.xcodeproj; sourceTree = "<group>"; };
 		DEAB990C270479BE002FF62E /* EsPrimo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EsPrimo; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEAB990F270479BE002FF62E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,18 +38,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DE9B361D270EE6DD00374C62 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DE9B3621270EE6DD00374C62 /* sumatorioPares */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		DEAB9903270479BE002FF62E = {
 			isa = PBXGroup;
 			children = (
-				DE9B361C270EE6DD00374C62 /* sumatorioPares.xcodeproj */,
 				DEAB990E270479BE002FF62E /* EsPrimo */,
 				DEAB990D270479BE002FF62E /* Products */,
 			);
@@ -127,28 +107,12 @@
 			mainGroup = DEAB9903270479BE002FF62E;
 			productRefGroup = DEAB990D270479BE002FF62E /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = DE9B361D270EE6DD00374C62 /* Products */;
-					ProjectRef = DE9B361C270EE6DD00374C62 /* sumatorioPares.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				DEAB990B270479BE002FF62E /* EsPrimo */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		DE9B3621270EE6DD00374C62 /* sumatorioPares */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = sumatorioPares;
-			remoteRef = DE9B3620270EE6DD00374C62 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DEAB9908270479BE002FF62E /* Sources */ = {
