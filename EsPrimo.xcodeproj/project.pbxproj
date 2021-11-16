@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DEAB9910270479BE002FF62E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEAB990F270479BE002FF62E /* main.cpp */; };
+		DEAB9910270479BE002FF62E /* EsPrimo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEAB990F270479BE002FF62E /* EsPrimo.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		DEAB990C270479BE002FF62E /* EsPrimo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EsPrimo; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEAB990F270479BE002FF62E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = main.cpp; sourceTree = "<group>"; };
+		DEAB990F270479BE002FF62E /* EsPrimo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = EsPrimo.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		DEAB990E270479BE002FF62E /* EsPrimo */ = {
 			isa = PBXGroup;
 			children = (
-				DEAB990F270479BE002FF62E /* main.cpp */,
+				DEAB990F270479BE002FF62E /* EsPrimo.cpp */,
 			);
 			path = EsPrimo;
 			sourceTree = "<group>";
@@ -119,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEAB9910270479BE002FF62E /* main.cpp in Sources */,
+				DEAB9910270479BE002FF62E /* EsPrimo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

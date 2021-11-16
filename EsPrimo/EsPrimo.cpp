@@ -36,7 +36,7 @@ bool esPrimo(unsigned int numero){
 //-----------------------------------------------
 int main(){
     int n;
-    n = 13; // inicializado
+    n = 1; // inicializado
 //    cout<<"elige un numero";
 //    cin >> n;
     if (esPrimo(n)==true) {
